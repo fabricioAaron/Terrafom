@@ -28,17 +28,17 @@
 
 La lista amarilla son los tipos que puedes usar para declarar variables:
 
-    <p> string → texto.</p>
-    <p> number → números.</p>
-    <p> bool → verdadero/falso.</p>
-    <p> list(T) → lista ordenada de elementos del mismo tipo.</p>
-    <p> set(T) → conjunto sin orden, sin duplicados, mismo tipo.</p>
-    <p> map(T) → clave/valor, todas las claves string, todos los valores del mismo tipo.</p>
-    <p> object({ ... }) → estructura con campos con nombre y tipos definidos.</p>
-    <p> tuple([ ... ]) → lista donde cada posición puede tener tipo distinto.</p>
+   <p> string → texto.</p>
+   <p> number → números.</p>
+   <p> bool → verdadero/falso.</p>
+   <p> list(T) → lista ordenada de elementos del mismo tipo.</p>
+   <p> set(T) → conjunto sin orden, sin duplicados, mismo tipo.</p>
+   <p> map(T) → clave/valor, todas las claves string, todos los valores del mismo tipo.</p>
+   <p> object({ ... }) → estructura con campos con nombre y tipos definidos.</p>
+   <p> tuple([ ... ]) → lista donde cada posición puede tener tipo distinto.</p>
 
 
-<br>
+
 
 A la izquierda pone any: si no especificas tipo, la variable acepta cualquier cosa, pero se pierde validación fuerte.
 

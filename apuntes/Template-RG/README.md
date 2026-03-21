@@ -16,3 +16,8 @@
          
    <br>
        <img width="342" height="152" alt="imagen" src="https://github.com/user-attachments/assets/d2899cae-f30d-40d1-b06c-83eb924221e2" />
+
+3. Inniciarcar sesión 
+
+    ``az login 
+    ``

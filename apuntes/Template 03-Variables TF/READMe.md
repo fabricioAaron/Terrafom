@@ -27,16 +27,16 @@
 ## 2. Tipos de datos (type constraints)
 
 La lista amarilla son los tipos que puedes usar para declarar variables:
-<p>
-    string → texto.
-    number → números.
-    bool → verdadero/falso.
-    list(T) → lista ordenada de elementos del mismo tipo.
-    set(T) → conjunto sin orden, sin duplicados, mismo tipo.
-    map(T) → clave/valor, todas las claves string, todos los valores del mismo tipo.
-    object({ ... }) → estructura con campos con nombre y tipos definidos.
-    tuple([ ... ]) → lista donde cada posición puede tener tipo distinto.
-</p>
+
+    <p> string → texto.</p>
+    <p> number → números.</p>
+    <p> bool → verdadero/falso.</p>
+    <p> list(T) → lista ordenada de elementos del mismo tipo.</p>
+    <p> set(T) → conjunto sin orden, sin duplicados, mismo tipo.</p>
+    <p> map(T) → clave/valor, todas las claves string, todos los valores del mismo tipo.</p>
+    <p> object({ ... }) → estructura con campos con nombre y tipos definidos.</p>
+    <p> tuple([ ... ]) → lista donde cada posición puede tener tipo distinto.</p>
+
 
 <br>
 

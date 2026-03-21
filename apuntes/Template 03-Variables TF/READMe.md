@@ -1,5 +1,7 @@
 ## 1. Tres tipos de “variables”
 
+<img width="744" height="550" alt="imagen" src="https://github.com/user-attachments/assets/74355d88-cc35-4d67-8fff-21ddb5e6e304" />
+
 <br>
 
 <p>

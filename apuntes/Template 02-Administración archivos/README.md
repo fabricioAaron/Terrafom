@@ -24,7 +24,9 @@ En cada terraform plan/apply:
     Compara configuración (.tf) ↔ estado ↔ realidad y calcula el plan de cambios.
     Ejecuta los cambios y actualiza el tfstate con el nuevo estado real.
 </P>
+
 ## ¿Dónde se guarda?
+
 <P>
     Por defecto: local en el directorio del proyecto (terraform.tfstate).
     En equipos y CI/CD se recomienda guardarlo en un backend remoto (por ejemplo, Azure Storage) para compartir estado, bloquear concurrencia y tener copias seguras.

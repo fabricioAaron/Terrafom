@@ -5,20 +5,6 @@ STORAGE_ACCOUNT_NAME=template02$RANDOM
 CONTAINER_NAME=tfstate
 
 # Create resource group
-az group create --name $RESOURCE_GROUP_NAME --location #!/bin/bash
-
-RESOURCE_GROUP_NAME=tfstate-temp02
-STORAGE_ACCOUNT_NAME=temp02$RANDOM
-CONTAINER_NAME=tfstate
-
-# Create resource group
-az group create --name $RESOURCE_GROUP_NAME --location #!/bin/bash
-
-RESOURCE_GROUP_NAME=tfstate-temp02
-STORAGE_ACCOUNT_NAME=temp02$RANDOM
-CONTAINER_NAME=tfstate
-
-# Create resource group
 az group create --name $RESOURCE_GROUP_NAME --location norwayeast
 
 # Create storage account

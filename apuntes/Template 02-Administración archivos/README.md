@@ -32,3 +32,4 @@ En cada terraform plan/apply:
 
 
 <img width="1510" height="934" alt="imagen" src="https://github.com/user-attachments/assets/f5f05d6f-3c74-4a4d-a17c-6b7bf2e1795c" />
+

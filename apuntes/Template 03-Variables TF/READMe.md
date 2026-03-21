@@ -3,7 +3,7 @@
 <br>
 
 <p>
-    Input
+    Input :
     Son las que defines con variable "nombre" { … }.
     Sirven para parametrizar tu módulo o tu root module (pasar nombres, tamaños, regiones, etc.).
 </p>
@@ -11,13 +11,13 @@
 <br>
 
 <p>
-    Output
+    Output :
     Son las que defines con output "nombre" { … }.
     Sirven para sacar información de tu módulo (por ejemplo, el ID de un resource group) y usarlo fuera o verlo al final del apply.
 </p> 
 
 <br>
-    Local
+    Local : 
     Son las locals { … }.
     Sirven para calcular valores intermedios reutilizables dentro del mismo módulo (por ejemplo, concatenar strings, formatear nombres, etc.).
     No se pasan desde fuera ni se devuelven: son “variables internas”.

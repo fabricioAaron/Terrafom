@@ -54,3 +54,28 @@ Ejemplo mental:
 <p>
     variable "tags" { type = map(string) }
 </p>
+
+<br>
+
+## INPUT : Orden de fuerza (de más débil a más fuerte):
+<p>1. default</p>
+
+<p>2. export TF_VAR_environment=valor</p>
+
+<p>3. terraform.tfvars</p>
+
+<p>4. cli: -var</p>
+<p>
+Manera de cambiar la variable de nuestro main: 
+
+* tf plan -var=environment=dev
+* export envrionment=comandline
+</p>
+
+<br>
+
+tf refresh 
+## Output: 
+
+Salida de las variables: tf output 
+

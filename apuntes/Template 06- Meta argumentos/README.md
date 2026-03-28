@@ -56,9 +56,9 @@ resource "azurerm_virtual_machine" "vm" {
 </p>
 
 
-3. ### for_each – repetir por elementos de un mapa/lista
+3. ### for_each – repetir por elementos de un mapa
 
-Más flexible que count. Cada instancia se indexa por clave en vez de por número.
+Más flexible que count. Cada instancia se indexa por clave en vez de por número. No funciona con valores duplicados, por ejemplo una lista, esta puede contener valores duplicados. 
 
 
 ```text
@@ -84,6 +84,10 @@ resource "azurerm_subnet" "subnet" {
     each.value → valor (10.0.1.0/24, 10.0.2.0/24).
     Ideal cuando quieres una instancia por cada entrada de un mapa (subnets, tags, reglas, etc.).
 </p>
+
+### For
+
+Se usa para las salidas para el output
 
 4. provider – elegir qué provider (o alias) usar
 

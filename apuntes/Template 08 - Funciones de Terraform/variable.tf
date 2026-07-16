@@ -19,3 +19,15 @@ variable "environment_tags" {
     cost_center = "cc-123"
   }
 }
+
+variable "storage_account_name" {
+  type    = string
+  default = "Tuto de Terraform!"
+
+}
+
+variable "allowed_ports" {
+  type    = string
+  default = "80, 443, 3306"
+
+}
